@@ -62,7 +62,8 @@ public class RecycleAdapter extends RecyclerView.Adapter<RecycleAdapter.MyViewHo
             tvKejuruan = itemView.findViewById(R.id.tvKejuruan);
             tvNim = itemView.findViewById(R.id.tvNim);
             tvNama = itemView.findViewById(R.id.tvNama);
-            up =
+            up = 
+
         }
     }
 
