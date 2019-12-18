@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -22,6 +23,7 @@ import java.util.List;
 import static com.example.roomdatabase.AppApplication.db;
 
 public class DetailActivity extends AppCompatActivity {
+
 
     RecyclerView myRecyclerview;
     FloatingActionButton myFab;

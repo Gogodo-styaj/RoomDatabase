@@ -4,6 +4,7 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -17,6 +18,9 @@ import java.util.List;
 public class RecycleAdapter extends RecyclerView.Adapter<RecycleAdapter.MyViewHolder> {
     private Context mContext;
     private List<Mahasiswa> myList;
+    Button up, del;
+
+
 
     public RecycleAdapter(Context mContext, List<Mahasiswa> albumList) {
         this.mContext = mContext;
@@ -58,8 +62,12 @@ public class RecycleAdapter extends RecyclerView.Adapter<RecycleAdapter.MyViewHo
             tvKejuruan = itemView.findViewById(R.id.tvKejuruan);
             tvNim = itemView.findViewById(R.id.tvNim);
             tvNama = itemView.findViewById(R.id.tvNama);
+            up =
         }
     }
+
+
+
 
 
 }
